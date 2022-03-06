@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#clock{
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 45px;
+}
+
+/*                   BARRA DE NAVEGAÇÃO                */
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    align-items: center;
+  }
+  
+  li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+/* ---------------------------------CONTAINER 1---------------------------------------- */
+
+.container-1{
+    display: block;
+    background-color: #222831;
+    height: 80vh;
+    max-width: 900rem;
+    text-align: center;
+}
+
+#joaovitormanoel {
+    text-align: center;
+    padding-top: 20rem;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+
+#joaovitormanoel:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#joaovitormanoel2 {
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: whitesmoke; 
+    
+}
+
+.contatos{
+    width: 30px;
+    height: auto;
+    padding-right: 1px;
+    padding-top: 5px;
+}
+
+.contatos:hover{
+    cursor: pointer;
+}
+
+.social a{
+    display: block;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+/*---------------------------------------------------SOBRE MIM-------------------------------------------------------*/
+
+
+
+.container-2{
+    
+    /*--BOX--*/ 
+    background-color: #393E46;
+    max-height: 900rem;
+    min-width: 320px;
+    max-width: 640rem;
+    border-top: solid;
+
+    /*--POSIÇÃO--*/
+
+    position: relative;
+    
+ 
+    /*--DISPLAY--*/
+    
+    font-family: 'Poppins', sans-serif;
+    display: flex;                
+    justify-content: center;
+    flex-flow: wrap;                               
+}
+
+@media screen and (max-width:800px) {
+    .container-2{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .container-2{
+        width: 100%;
+    }
+    
+}
+
+.sobremim-miniatura{
+    width: 6.25rem;
+    height: 6.25rem;
+    float: left;
+    position: relative;
+    right: 20px;
+}
+
+.whoami{
+    background-color: whitesmoke;
+    max-width: 100%;
+    max-height: 100%;
+    display: flexbox;
+    border: solid;
+    border-radius: 5rem;
+    padding: 30px;
+    margin: 5px 5px 5px 0;
+}
+
+/*------RODAPÉ------*/
+
+#rodape{
+    background-color: black;
+    font-style: italic;
+    
+    width: 100%;
+    height: 30px;
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+}
+
+#Reserveds{
+    color: azure;
+}
+
