@@ -10,7 +10,7 @@ function realtimeClock() {
 
     var amPm = (hours < 12 ) ? "AM" : "PM";
     
-    hours = (hours < 12) ? hours - 12 : hours;
+    hours = (hours > 12) ? hours - 12 : hours;
 
     hours = ("0" + hours).slice(-2);
     minutes = ("0" + minutes).slice(-2);
