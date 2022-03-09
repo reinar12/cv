@@ -67,6 +67,8 @@ a {
     height: 80vh;
     max-width: 900rem;
     text-align: center;
+    overflow-x: auto;
+
 }
 
 section .text {
@@ -165,12 +167,6 @@ section .text span.active
     .container-2{
         width: 100%;
     }
-    #clock{
-    
-        padding-top:60px;
-    
-    }
-    
     
 }
 
@@ -190,7 +186,7 @@ section .text span.active
 }
 
 .whoami{
-    background-color: #EEEEEE;
+    background-color: whitesmoke;
     max-width: 100%;
     max-height: 100%;
     display: flexbox;
@@ -216,4 +212,3 @@ section .text span.active
 #Reserveds{
     color: azure;
 }
-
