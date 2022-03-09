@@ -37,6 +37,18 @@
                 <a href="https://www.instagram.com/jvmanoel/" target="_blank"><img src="img/instagram.png" alt="instagram" class="contatos"></a>
             </div>
         </div>
+        
+        <script>
+            const text = document.querySelector('.text');
+            text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+        
+            const letters = document.querySelectorAll('span');
+            for (let i=0; i<letters.length; i++){
+                letters[i].addEventListener("mouseover", function(){
+                    letters[i].classList.add('active')
+                })
+            }
+        </script>
           
         <div class="container-2">
             <div class="whoami">
